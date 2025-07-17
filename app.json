@@ -22,12 +22,14 @@
       },
       "permissions": [
         "android.permission.CAMERA",
-        "android.permission.RECORD_AUDIO"
+        "android.permission.RECORD_AUDIO",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION"
       ],
       "package": "com.sakibb.clickmartreactnative",
-      "config":{
-        "googleMaps":{
-          "apiKey":"AIzaSyB4vXIhcyycHK1bfNNFOY_oroC1kqVi-uk"
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyB4vXIhcyycHK1bfNNFOY_oroC1kqVi-uk"
         }
       }
     },
@@ -61,7 +63,7 @@
         "origin": false
       },
       "eas": {
-        "projectId": "25ecc557-ef73-44b7-be0f-0e16f20ba13d"
+        "projectId": "f02e2a0c-0669-4cfd-b845-b222612b3e0b"
       }
     }
   }
